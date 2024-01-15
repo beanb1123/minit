@@ -1,8 +1,4 @@
 {
-  "name": "miner",
-  "version": "1.0.0",
-  "description": "Stratum xmr miner implemented in Javascript",
-  "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
