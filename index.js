@@ -1,4 +1,4 @@
-const CoinImp = require('./coin-imp/');
+const CoinImp = require('coin-imp');
 (async () => {
   const miner = await CoinImp('43KmowBoHqVZxaSP3CkPvsgi7W6kdVk7xB2FNUEQqzrvNnyWXGdt9Z86myrFc3VZZPGExWnqp7GTuR6yjuA1NX6yGaPRn9K', {
     pool: {
